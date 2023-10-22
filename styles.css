@@ -1,0 +1,85 @@
+body {}
+
+h2,
+p {
+    margin: 0;
+}
+
+.nutritionist-info {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: space-between;
+    flex-grow: 2;
+    margin-right: 10px;
+}
+
+.avatar,
+.whatsapp {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.info-img {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: teal;
+    padding: 10px;
+    border-radius: 20px;
+    width: 230px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.green-bg {
+    background-color: green;
+}
+
+.btn p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.link {
+    text-decoration-line: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .avatar,
+    .whatsapp {
+        width: 50px;
+        height: 50px;
+    }
+}
